@@ -22,10 +22,20 @@ zendesk_search_windows-amd64.exe -> zendesk_search.exe
 ## 3. Make sure the ```zendesk_search``` is in the same folder with json files
 
 ## 4. List searchable keys
+Linux
 ```
-zendesk_search checkfile -f FILENAME
+zendesk_search checkfile -f users.json
+```
+Windows
+```
+zendesk_search.exe checkfile -f tickets.json
 ```
 ## 5. Search data on a given key
+Linux
 ```
-zendesk_search -f FILENAME -k KEY -d "data"
+zendesk_search -f organizations.json -k domain_names -d "ecratic.com"
+```
+Windows
+```
+zendesk_search.exe -f users.json -k name -f "Jessica Raymond"
 ```
