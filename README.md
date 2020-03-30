@@ -39,3 +39,15 @@ Windows
 ```
 zendesk_search.exe -f users.json -k name -d "Jessica Raymond"
 ```
+
+## 6. Get help on using the tool
+Linux/Mac
+```
+zendesk_search
+zendesk_search checkfile
+```
+Windows
+```
+zendesk_search.exe
+zendesk_search.exe checkfile
+```
