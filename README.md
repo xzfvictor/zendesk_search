@@ -17,7 +17,7 @@ $ chmod 777 zendesk_search
 ```
 Windows
 ```
-zendesk_search_windows-amd64.exe -> zendesk_search.exe
+ren zendesk_search_windows-amd64.exe zendesk_search.exe
 ```
 ## 3. Make sure the ```zendesk_search``` is in the same folder with json files
 
