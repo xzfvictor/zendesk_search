@@ -37,5 +37,5 @@ zendesk_search -f organizations.json -k domain_names -d "ecratic.com"
 ```
 Windows
 ```
-zendesk_search.exe -f users.json -k name -f "Jessica Raymond"
+zendesk_search.exe -f users.json -k name -d "Jessica Raymond"
 ```
