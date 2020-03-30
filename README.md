@@ -12,7 +12,7 @@ $ chmod 777 zendesk_search
 ```
 MAC
 ```
-$ mv zendesk_search_linux-amd64 zendesk_search
+$ mv zendesk_search_darwin-amd64 zendesk_search
 $ chmod 777 zendesk_search
 ```
 Windows
