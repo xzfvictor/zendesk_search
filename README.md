@@ -19,7 +19,7 @@ Windows
 ```
 ren zendesk_search_windows-amd64.exe zendesk_search.exe
 ```
-## 3. Make sure ```zendesk_search``` is in the same folder along with json files
+## 3. Make sure ```zendesk_search``` is placed in the same folder along with the json files
 
 ## 4. List searchable keys on a json file
 Linux/Mac
